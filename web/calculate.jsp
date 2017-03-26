@@ -13,11 +13,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <title>Main Page</title>
     </head> 
-             ${province}<br/>
-             ${inTime}<br/>
-             ${outTime}<br/>
-             ${hr}<br/>
-             ${money}<br/>
+
     <body>
         <div class="container">
            <br><br><br><br><br>
@@ -56,7 +52,7 @@
 
     <div class="container">
 
-      <form>
+        <form action="result">
         <div class="form-group">
           <div class="col-xs-4">
 
@@ -69,6 +65,13 @@
 
           </div>
         </div>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+              <button type="submit" class="btn btn-primary btn-lg">คำนวณเงินทอน</button>
       </form>
     </div>
 
@@ -76,7 +79,7 @@
 
 
     <br><br>
-    <button type="button" class="btn btn-primary btn-lg">คำนวณเงินทอน</button>
+
   </div>
   </div>
 </div>

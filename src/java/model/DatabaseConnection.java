@@ -16,8 +16,8 @@ public class DatabaseConnection {
     public static Connection getConnection() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String dbURL = "jdbc:mysql://localhost/less?characterEncoding=utf-8";
-            con = DriverManager.getConnection(dbURL, "root", "");
+            String dbURL = "jdbc:mysql://139.59.237.126:3306/carpark?characterEncoding=utf-8";
+            con = DriverManager.getConnection(dbURL, "root", "123456");
         } catch (ClassNotFoundException e) {
             System.err.println("Error Load Driver :" + e);
         } catch (SQLException e) {
