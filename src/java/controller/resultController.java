@@ -28,6 +28,7 @@ public class resultController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
             con = DatabaseConnection.getConnection();
+            
             int price;
             int provided;
         int change;

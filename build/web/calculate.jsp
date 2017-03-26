@@ -59,6 +59,7 @@
           </div>
           <div class="col-xs-4">
           <h3>รับเงิน</h3>
+          
             <input class="form-control" id="ex2" type="text">
           </div>
           <div class="col-xs-4">
